@@ -1,0 +1,42 @@
+.popularSection {
+  padding-top: 10px;
+}
+
+.popularSectionH2 {
+  margin: 40px 0;
+  font-size: 34.74px;
+  font-weight: 400;
+  line-height: 52.11px;
+  text-align: center;
+}
+
+.popularCardRow {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: none;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  padding: 10px 0 10px 84px;
+  width: calc(100% - 50px);
+}
+
+@media (max-width: 786px) {
+  .popularSection {
+    padding-top: 40px;
+  }
+
+  .popularSectionH2 {
+    margin: 40px 0px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 16px 20px;
+  }
+
+  .popularCardRow {
+    padding: 10px;
+    width: 100%;
+    margin-left: 10px;
+  }
+}
