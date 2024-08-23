@@ -1,0 +1,241 @@
+.headerDiv {
+  padding: 0px 64px;
+}
+
+.navDiv {
+  height: 121px;
+  width: 100%;
+  padding: 15px 0px;
+}
+
+.navSocial {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.navSocialList {
+  display: flex;
+  list-style: none;
+  height: 15px;
+}
+
+.navSocialLi {
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navList {
+  display: flex;
+}
+
+.navLinkList {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navLinkLi {
+  margin-left: 32px;
+}
+
+.navLinkLi a {
+  text-decoration: none;
+  padding: 10px 0px;
+  display: inline-block;
+  color: black;
+}
+
+.navLinkLi a:hover {
+  color: rgb(143, 143, 143);
+}
+
+.navLinkButtonLi {
+  display: flex;
+  margin-left: 32px;
+}
+
+.notificationButton {
+  border: none;
+  background-color: transparent;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.avatarButton {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 19px;
+}
+
+.avatarButton:hover {
+  background-color: rgb(99, 97, 97);
+}
+
+.avatar {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-right: 5px;
+}
+
+.menu {
+  display: none;
+  cursor: pointer;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 5px;
+}
+
+.marqueeContainer {
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.marqueeContent {
+  letter-spacing: -3.5%;
+  font-size: 10px;
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 25s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.sidebar {
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  width: 300px;
+  height: 543px;
+  padding: 56px 32px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.closeButton {
+  cursor: pointer;
+}
+
+.dropNavMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropNavMenu a {
+  text-decoration: none;
+  color: black;
+  margin: 20px 0px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+}
+
+.loginButton {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  padding: 4px 20px;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  background-color: rgb(70, 70, 70);
+}
+
+.sidebar.active {
+  display: flex;
+}
+
+.sidebar.inactive {
+  display: none;
+}
+
+@media (max-width: 786px) {
+  .headerDiv {
+    padding: 0px 16px;
+  }
+
+  .navDiv {
+    height: 80px;
+    padding: 15px 0px;
+  }
+
+  .companyLogo {
+    width: 156px;
+    height: 24px;
+  }
+
+  .navLinkLi {
+    margin-left: 15px;
+  }
+
+  .navLeft {
+    margin-bottom: 19px;
+  }
+
+  .navMarquee {
+    height: 15px;
+    overflow: hidden;
+  }
+
+  .name {
+    display: none;
+  }
+
+  .avatar {
+    margin: 0;
+  }
+
+  .avatarButton {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px;
+    padding-right: 6px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navLinkList {
+    display: none;
+  }
+
+  .navSocialList {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+}
