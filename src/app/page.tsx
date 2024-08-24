@@ -3,6 +3,7 @@ import Booking from "../components/Booking/Booking";
 import SummerPromotion from "../components/SummerPromotion/SummerPromotion";
 import Popular from "../components/Popular/Popular";
 import Subscribe from "../components/Subscribe/Subscribe";
+import RentSteps from "../components/RentSteps/RentSteps";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <SummerPromotion />
       <Popular />
       <Subscribe/>
+      <RentSteps/>
     </>
   );
 }
