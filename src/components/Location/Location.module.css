@@ -1,0 +1,91 @@
+.locationSection {
+    background-color: black;
+    text-align: center;
+    padding: 40px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 56px;
+  }
+  
+  .locationHeadings {
+    color: white;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 51px;
+    text-align: center;
+    margin-bottom: 72px;
+  }
+  
+  .locationUl {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .locationLi {
+    border-right: 2px solid #ffffff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 56px;
+    padding-right: 56px;
+    margin-bottom: 65px;
+  }
+  
+  .locationLi span {
+    margin-left: 16px;
+    color: #ffffff;
+  }
+  
+  .locationLiEnd {
+    border: none;
+  }
+
+  @media only screen and (max-width: 786px) {
+    .locationSection {
+        padding: 16px;
+      }
+    
+      .locationHeadings {
+        color: white;
+        margin-bottom: 24px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+      }
+    
+      .locationUl {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        align-items: center;
+        justify-content: left;
+      }
+    
+      .locationLi {
+        border-right: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 16px;
+        margin-right: 16px;
+        font-family: "open sans";
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19.07px;
+        text-align: left;
+      }
+    
+      .locationLi span {
+        margin-left: 16px;
+        color: #ffffff;
+      }
+  }

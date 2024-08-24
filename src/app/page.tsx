@@ -1,9 +1,11 @@
-import Header from "../components/Header/Header";
-import Booking from "../components/Booking/Booking";
-import SummerPromotion from "../components/SummerPromotion/SummerPromotion";
-import Popular from "../components/Popular/Popular";
-import Subscribe from "../components/Subscribe/Subscribe";
-import RentSteps from "../components/RentSteps/RentSteps";
+import Header from "@/components/Header/Header";
+import Booking from "@/components/Booking/Booking";
+import SummerPromotion from "@/components/SummerPromotion/SummerPromotion";
+import Popular from "@/components/Popular/Popular";
+import Subscribe from "@/components/Subscribe/Subscribe";
+import RentSteps from "@/components/RentSteps/RentSteps";
+import Location from "@/components/Location/Location";
+import Accordian from "@/components/Accordian/Accordian";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <Popular />
       <Subscribe/>
       <RentSteps/>
+      <Location/>
+      <Accordian/>
     </>
   );
 }
