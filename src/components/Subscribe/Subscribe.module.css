@@ -1,0 +1,273 @@
+.subscribeSection {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 89px;
+  margin-top: 40px;
+}
+
+.subscribeDiv1 {
+  width: 50%;
+}
+
+.subscribeDiv1Heading {
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 51px;
+  text-align: left;
+  margin: 38px 40px 38px 0px;
+}
+
+.subscribeDiv1InputDiv input {
+  width: 223px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f8f8f8;
+  padding: 13px 20px;
+  margin-bottom: 16px;
+}
+
+.enterName,
+.enterEmail {
+  background-color: #f8f8f8;
+  border-radius: 10px 10px 10px 10px;
+  border: none;
+  width: 223px;
+  padding-left: 20px;
+}
+
+.enterEmail {
+  margin-left: 17.89px;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 12px;
+  margin-top: 2px;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.subscribeDiv1Para {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: left;
+  margin-bottom: 40px;
+  width: 75%;
+}
+
+.subscribeButton {
+  background-color: #e21e26;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+  padding: 16px;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+}
+
+.subscribeButton {
+  background-color: #e21e26;
+  height: 57.08px;
+  width: 464px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.subscribeButton:hover {
+  background-color: #da4b50;
+}
+
+.subscribeDiv2 {
+  background-color: #e21e26;
+  display: flex;
+  padding: 48px 72px;
+  width: 50%;
+}
+
+.downloadLinkPara {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21.5px;
+  text-align: left;
+  color: white;
+  margin-top: 76px;
+}
+
+#enterNumber {
+  width: 85%;
+  height: 45px;
+  border-radius: 5px 0px 0px 0px;
+  padding: 22px 13.7px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f8f8f8;
+  margin-bottom: 24px;
+}
+
+.numberErrorMessage {
+  color: #ffffff;
+  font-size: 12px;
+  margin-top: 2px;
+  display: block;
+  position: relative;
+  bottom: -5px;
+  left: 0px;
+  width: 100%;
+}
+
+.storeLinksImg {
+  display: flex;
+  cursor: pointer;
+}
+
+.subscribeLinkButton {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  border-radius: 8px;
+}
+
+.subscribeLinkButton:hover {
+  background-color: #3d3d3d;
+}
+
+.getItOnPara {
+  color: white;
+  margin: 45px 0px 16px 0px;
+}
+
+.storeLinks {
+  display: flex;
+}
+
+.storeLinksImg {
+  margin-left: 8px;
+}
+
+/* MOBILE VIEW */
+.subscribeDiv2Mobile {
+  display: none;
+  background-color: #e21e26;
+  border-radius: 8px;
+}
+
+.subscribeDiv2Main {
+  display: flex;
+}
+
+.mobileAppImgMV {
+  width: 136px;
+  height: 245px;
+}
+
+.downloadInputDiv {
+  padding: 16px;
+}
+
+.getItOnParaMV {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.6px;
+  text-align: left;
+  color: white;
+  margin: 16px 16px 0px 16px;
+}
+
+.downloadLinkParaMV {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.6px;
+  text-align: left;
+  color: white;
+  margin: 32px 16px 16px 16px;
+  width: 149px;
+}
+
+.storeLinksMV {
+  display: block;
+  padding: 16px;
+}
+
+.enterNumberMV {
+  width: 100%;
+  height: 45px;
+  border-radius: 5px 0px 0px 0px;
+  padding: 22px 13.7px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f8f8f8;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 786px) {
+  .subscribeSection {
+    display: block;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .subscribeDiv1 {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .subscribeDiv1Heading {
+    margin: 38px 40px 38px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 227px;
+  }
+
+  .subscribeDiv1Para {
+    width: 100%;
+  }
+
+  #subscribeDiv1InputDiv {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .subscribeDiv1InputDiv input {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f8f8f8;
+    padding: 13px 20px;
+    margin-bottom: 16px;
+  }
+
+  .subscribeButton {
+    width: 128px;
+    background-color: #e21e26;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .subscribeDiv2 {
+    display: none;
+  }
+
+  .subscribeDiv2Mobile {
+    display: block;
+  }
+}

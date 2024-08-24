@@ -1,4 +1,3 @@
-// components/PopularCarsSection.tsx
 import React from "react";
 import CarCard from "../CarCard/CarCard";
 import styles from "./Popular.module.css";
@@ -8,7 +7,7 @@ const PopularSection: React.FC = () => {
     <section className={styles.popularSection}>
       <h2 className={styles.popularSectionH2}>Most popular cars</h2>
       <div className={styles.popularCardRow}>
-        
+
         {/* Mitsubishi Eclipse Car Card */}
         <CarCard
           imageSrc="/images/popular-bluecar.svg"
