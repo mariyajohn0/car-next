@@ -1,0 +1,284 @@
+.footerdiv {
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins, sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+}
+
+.footerdiv2 {
+  background-color: rgba(0, 0, 0, 1);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 34px 0;
+}
+
+.footerdiv3 {
+  padding-left: 120px;
+  display: flex;
+  width: 100%;
+  max-width: 1257px;
+  align-items: start;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footerdiv4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+.footerimg {
+  aspect-ratio: 0.86;
+  object-fit: contain;
+  object-position: center;
+  width: 57px;
+}
+.memberOfTheAlHabtoorGroup {
+  margin-top: 9px;
+}
+
+.footerdiv5 {
+  display: flex;
+  align-items: start;
+  gap: 40px 61px;
+  font-size: 13px;
+  flex-wrap: wrap;
+}
+
+.footerdiv6 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerhome {
+  align-self: start;
+}
+.footeraboutUs,
+.footerservices {
+  margin-top: 16px;
+}
+
+.footerdiv7 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.footerlocations,
+.footerprivacyPolicy {
+  margin-top: 16px;
+}
+.footercontactUs {
+  align-self: stretch;
+  margin-top: 16px;
+}
+.footerdiv8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.footerserviceRequest {
+  align-self: stretch;
+  margin-top: 18px;
+}
+.footerdiv9 {
+  display: flex;
+  flex-direction: column;
+}
+.footercareer {
+  align-self: start;
+}
+.footertermsConditions {
+  margin-top: 17px;
+}
+.footerdiv10 {
+  margin-right: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 138px;
+  max-width: 100%;
+}
+.footerimg2 {
+  aspect-ratio: 8.13;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  align-self: stretch;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerimg3 {
+  aspect-ratio: 2.67;
+  object-fit: contain;
+  object-position: center;
+  margin-top: 31px;
+  display: flex;
+}
+.alHabtoorCompanies {
+  font-size: 13px;
+  margin-top: -25px;
+  margin-left: -430px;
+}
+.footerdiv11 {
+  display: flex;
+  height: 24px;
+  width: 565px;
+  max-width: 100%;
+  align-items: center;
+  gap: 21px;
+  font-size: 13px;
+  letter-spacing: -0.46px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footerhospitality {
+  line-height: 57px;
+  align-self: stretch;
+  margin: auto 0;
+  margin-left: -50px;
+}
+.footerrealEstate,
+.footerpublishing,
+.footereducation {
+  line-height: 57px;
+  align-self: stretch;
+  margin: auto 0;
+}
+
+.footerautomotive,
+.footervehicleLeasing {
+  align-self: stretch;
+  margin: auto 0;
+}
+
+.footerdiv12 {
+  align-self: stretch;
+  min-height: 0px;
+  margin-top: 24px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.carRentalLLCAllRightsReserved {
+  font-size: 12px;
+  margin-top: 24px;
+}
+
+.footerCursor{
+  cursor: pointer;
+}
+
+.footerMobile {
+  display: none;
+}
+
+@media (max-width: 786px) {
+  .footerdiv {
+    display: none;
+  }
+
+  .footerMobile {
+    display: block;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .topFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f4f4f400;
+  }
+
+  .logoSection {
+    display: flex;
+    align-items: center;
+  }
+
+  .logoSection img {
+    max-width: 60px;
+    margin-right: 10px;
+  }
+
+  .alHabtoorText {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  .socialIconsMobileFooter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .socialIconsMobileFooter a img {
+    max-width: 24px;
+  }
+
+  .middleFooterMobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .middleFooterMobile a {
+    margin: 10px;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .middleFooterMobile a:hover {
+    text-decoration: underline;
+  }
+
+  .bottomFooterMobile {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .bottomFooterMobile p {
+    margin: 10px 0;
+    cursor: pointer;
+  }
+
+  .companiesMobileFooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .companiesMobileFooter a {
+    margin: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .companiesMobileFooter a:hover {
+    text-decoration: underline;
+  }
+
+  .secureSealMobileFooter img {
+    width: 80px;
+    margin: 20px 0;
+  }
+}

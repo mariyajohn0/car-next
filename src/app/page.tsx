@@ -6,6 +6,7 @@ import Subscribe from "@/components/Subscribe/Subscribe";
 import RentSteps from "@/components/RentSteps/RentSteps";
 import Location from "@/components/Location/Location";
 import Accordian from "@/components/Accordian/Accordian";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -14,10 +15,11 @@ export default function Home() {
       <Booking />
       <SummerPromotion />
       <Popular />
-      <Subscribe/>
-      <RentSteps/>
-      <Location/>
-      <Accordian/>
+      <Subscribe />
+      <RentSteps />
+      <Location />
+      <Accordian />
+      <Footer />
     </>
   );
 }
