@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import styles from "./Booking.module.css";
 
 const QuickBook: React.FC = () => {
@@ -54,7 +55,7 @@ const QuickBook: React.FC = () => {
             className={styles.endTime}
           />
           <button className={styles.searchButton}>
-            <img src="/images/search-button.svg" alt="Search Button" />
+            <Image src="/images/search-button.svg" alt="Search Button" width={64} height={42} />
           </button>
           <div className={styles.vDivider}></div>
           <button className={styles.quickBookButton}>Quick Book</button>
@@ -65,15 +66,19 @@ const QuickBook: React.FC = () => {
             Download our App for easy accessibility anytime, anywhere!
           </p>
           <div className={styles.appImages}>
-            <img
+            <Image
               className={styles.storeDownloadImage}
               src="/images/appstore.svg"
               alt="App Store"
+              width={109}
+              height={32}
             />
-            <img
+            <Image
               className={styles.storeDownloadImage}
               src="/images/googleplay.svg"
               alt="Google Play"
+              width={109}
+              height={32}
             />
           </div>
         </div>
@@ -81,18 +86,22 @@ const QuickBook: React.FC = () => {
 
       <div className={styles.iconsSide}>
         <button className={styles.iconButton}>
-          <img src="/images/phone-icon.svg" alt="Phone icon" />
+          <Image src="/images/phone-icon.svg" alt="Phone icon" width={48} height={45} />
         </button>
         <button className={styles.iconButton}>
-          <img
+          <Image
             src="/images/side-icon-bg.svg"
             alt="Icon background"
             className={styles.sideButtonBg}
+            width={48}
+            height={45}
           />
-          <img
+          <Image
             src="/images/side-icon.svg"
             alt="Icon"
             className={styles.sideButtonIcon}
+            width={38}
+            height={38}
           />
         </button>
       </div>
@@ -103,7 +112,7 @@ const QuickBook: React.FC = () => {
           <button className={styles.bookACar} onClick={handleBookACarClick}>
             Book a car
           </button>
-          <button className={styles.bookQuick}>Quick book</button>
+          <button className={styles.bookQuick} onClick={handleBookACarClick}>Quick book</button>
         </div>
 
         <div className={`${styles.bookTabs} ${isActive ? styles.active : ""}`}>

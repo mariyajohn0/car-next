@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import styles from "./SummerPromotion.module.css";
 
 const Slideshow: React.FC = () => {
@@ -23,10 +24,12 @@ const Slideshow: React.FC = () => {
             slideIndex === 0 ? styles.fade : ""
           }`}
         >
-          <img
+          <Image
             src="/images/slider-image.svg"
             alt="Slide Image 1"
             className={styles.slideImage}
+            width={1312}  
+            height={400} 
           />
         </div>
 
@@ -35,10 +38,12 @@ const Slideshow: React.FC = () => {
             slideIndex === 1 ? styles.fade : ""
           }`}
         >
-          <img
+          <Image
             src="/images/slider-image.svg"
             alt="Slide Image 2"
             className={styles.slideImage}
+            width={1312} 
+            height={400} 
           />
         </div>
 
@@ -47,10 +52,12 @@ const Slideshow: React.FC = () => {
             slideIndex === 2 ? styles.fade : ""
           }`}
         >
-          <img
+          <Image
             src="/images/slider-image.svg"
             alt="Slide Image 3"
             className={styles.slideImage}
+            width={1312}  
+            height={400} 
           />
         </div>
 

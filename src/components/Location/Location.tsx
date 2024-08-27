@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import styles from "./Location.module.css";
 
 const Location: React.FC = () => {
@@ -11,42 +12,52 @@ const Location: React.FC = () => {
       </h2>
       <ul className={styles.locationUl}>
         <li className={styles.locationLi}>
-          <img
+          <Image
             src="/images/location.svg"
             alt="Location icon"
             className={styles.locationIcon}
+            width={24}
+            height={24}
           />
           <span>Dubai</span>
         </li>
         <li className={styles.locationLi}>
-          <img
+          <Image
             src="/images/location.svg"
             alt="Location icon"
             className={styles.locationIcon}
+            width={24}
+            height={24}
           />
           <span>Abu Dhabi</span>
         </li>
         <li className={styles.locationLi}>
-          <img
+          <Image
             src="/images/location.svg"
             alt="Location icon"
             className={styles.locationIcon}
+            width={24}
+            height={24}
           />
           <span>Sharjah</span>
         </li>
         <li className={styles.locationLi}>
-          <img
+          <Image
             src="/images/location.svg"
             alt="Location icon"
             className={styles.locationIcon}
+            width={24}
+            height={24}
           />
           <span>Fujairah</span>
         </li>
         <li className={`${styles.locationLi} ${styles.locationLiEnd}`}>
-          <img
+          <Image
             src="/images/location.svg"
             alt="Location icon"
             className={styles.locationIcon}
+            width={24}
+            height={24}
           />
           <span>Ras Al Khaimah</span>
         </li>

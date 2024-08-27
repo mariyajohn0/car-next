@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import styles from "./RentSteps.module.css";
 
 const RentSteps: React.FC = () => {
@@ -13,10 +14,12 @@ const RentSteps: React.FC = () => {
         <div className={styles.rentStepCols}>
           <h3 className={styles.rentSteph3}>01</h3>
           <div className={styles.rentStepSubdiv}>
-            <img
+            <Image
               src="/images/rent-location.svg"
               alt="Location icon"
               className={styles.rentStepIcon}
+              width={50}
+              height={50}
             />
             <p className={styles.rentDivPara}>
               Select the location. Browse through our available options and find
@@ -28,10 +31,12 @@ const RentSteps: React.FC = () => {
         <div className={styles.rentStepCols}>
           <h3 className={styles.rentSteph3}>02</h3>
           <div className={styles.rentStepSubdiv}>
-            <img
+            <Image
               src="/images/rent-calender.svg"
               alt="Calendar icon"
               className={styles.rentStepIcon}
+              width={50}
+              height={50}
             />
             <p className={styles.rentDivPara}>
               Choose your desired Pick-Up date and time.
@@ -42,10 +47,12 @@ const RentSteps: React.FC = () => {
         <div className={styles.rentStepCols}>
           <h3 className={styles.rentSteph3}>03</h3>
           <div className={styles.rentStepSubdiv}>
-            <img
+            <Image
               src="/images/rent-car.svg"
               alt="Payment icon"
               className={styles.rentStepIcon}
+              width={50}
+              height={50}
             />
             <p className={styles.rentDivPara}>
               Make payment and book the car. Select an option to either have the

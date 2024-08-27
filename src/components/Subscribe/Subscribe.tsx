@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import styles from "./Subscribe.module.css";
 
 const Subscribe: React.FC = () => {
@@ -92,7 +93,7 @@ const Subscribe: React.FC = () => {
           {emailError && <p className={styles.errorMessage}>{emailError}</p>}
         </div>
         <p className={styles.subscribeDiv1Para}>
-          Don't miss out! Enter your email and your name, then hit subscribe to
+          Don&apos;t miss out! Enter your email and your name, then hit subscribe to
           unlock a world of special offers and details.
         </p>
         <button
@@ -105,10 +106,12 @@ const Subscribe: React.FC = () => {
       </div>
 
       <div className={styles.subscribeDiv2} id="subscribeDiv2">
-        <img
+        <Image
           className={styles.mobileAppImg}
           src="/images/subscribe-phone.svg"
           alt="Mobile Image"
+          width={150}
+          height={150}
         />
         <div className={styles.downloadLinkDiv}>
           <p className={styles.downloadLinkPara}>
@@ -133,8 +136,8 @@ const Subscribe: React.FC = () => {
           </button>
           <p className={styles.getItOnPara}>Get it on</p>
           <div className={styles.storeLinks}>
-            <img src="/images/subscribe-appstore.svg" alt="App store" />
-            <img src="/images/subscribe-googleplay.svg" alt="Google play" />
+            <Image src="/images/subscribe-appstore.svg" alt="App store" width={120} height={40} />
+            <Image src="/images/subscribe-googleplay.svg" alt="Google play" width={120} height={40} />
           </div>
         </div>
       </div>
@@ -142,17 +145,19 @@ const Subscribe: React.FC = () => {
       {/* Mobile View Section */}
       <div className={styles.subscribeDiv2Mobile}>
         <div className={styles.subscribeDiv2Main}>
-          <img
+          <Image
             className={styles.mobileAppImgMV}
             src="/images/subscribe-phone.svg"
             alt="Mobile Image"
+            width={150}
+            height={150}
           />
           <div className={styles.downloadLinkDiv}>
             <p className={styles.getItOnParaMV}>Get it on</p>
             <div className={styles.storeLinksMV}>
-              <img src="/images/subscribe-appstore.svg" alt="App store" />
+              <Image src="/images/subscribe-appstore.svg" alt="App store" width={120} height={40} />
               <br />
-              <img src="/images/subscribe-googleplay.svg" alt="Google Play" />
+              <Image src="/images/subscribe-googleplay.svg" alt="Google Play" width={120} height={40} />
             </div>
             <p className={styles.downloadLinkParaMV}>
               Enter your number and receive a direct link <br />

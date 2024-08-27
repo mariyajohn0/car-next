@@ -7,14 +7,9 @@ import styles from "./Header.module.css";
 
 const Header: React.FC = () => {
   const [isSidebarActive, setIsSidebarActive] = useState(false);
-  const [isBookTabsActive, setIsBookTabsActive] = useState(false);
 
   const toggleSidebar = () => {
     setIsSidebarActive(!isSidebarActive);
-  };
-
-  const toggleBookTabs = () => {
-    setIsBookTabsActive(!isBookTabsActive);
   };
 
   return (
