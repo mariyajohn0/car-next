@@ -49,7 +49,7 @@ car-next is a responsive single-page car rental website built using Next.js, Typ
 ### Installation  
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/your-username/car-next.git  
+   git clone https://github.com/mariyajohn0/car-next.git 
 
-
+### Deployment
 https://car-next-js-woad.vercel.app/
